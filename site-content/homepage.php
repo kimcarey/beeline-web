@@ -69,57 +69,35 @@ Template Name: Home
 
   <section id="first">
   <article id="beehive">
-  <ul id="scene" class="scene">
-<li class="layer" data-depth="0.00">
-<div class="background"></div>
-</li>
 
-<li class="layer" data-depth="0.60">
-<div class="behive"><img src="images/beehive.png"></div>
-</li>
-
-<li class="layer" data-depth="0.40" data-invert-y="false">
-<div class="bee-1"><img src="images/bee-1.png" /></div>
-</li>
-
-<li class="layer" data-depth="0.60">
-<div class="bee-the-change">
-  <h2>Welcome to Beeline!</h2>
-  <p>Where have all the bees gone? They're nowhere to be found.</p>
-  <p>
-  Not a buzz or peep. Just silence. Not one sound.<br> 
-  The hive is unprotected, the honey has ceased to flow.<br>
-  The Queen Bee is set for a mission. <b>Ready, set, GO!</b>
-  </p>
-  <p>
-  Both educational and entertaining, Beeline is a fast-paced and unpredictable board game for the whole family. 
-  </p>
-
-  <!-- Begin MailChimp Signup Form -->
-  <div id="mc_embed_signup">
-  <form action="//beeline-game.us14.list-manage.com/subscribe/post?u=8b1c568a3c2a7e7da060cfbc0&amp;id=1a7ee048a3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  <div id="mc_embed_signup_scroll">
-<label for="mce-EMAIL"><h2>Join the BeeList for exclusive content and Beeline game updates!</h2></label>
-<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter email address" required>
-  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8b1c568a3c2a7e7da060cfbc0_1a7ee048a3" tabindex="-1" value="">
-  </div>
-  <div class="clear">
-  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-  </div>
-  </form>
-  </div>
-  <!--End mc_embed_signup-->
-</div>
-</li>
-
-<li class="layer" data-depth="1.00">
-<div class="bee-2"><img src="images/bee-2.png"></div>
-</li>
-
-<li class="layer" data-depth="2.30">
-<div class="leaves"><img src="images/leaves.png"></div>
-</li>
-</ul>
+    <div class="bee-the-change">
+      <h2>Welcome to Beeline!</h2>
+      <p>Where have all the bees gone? They're nowhere to be found.</p>
+      <p>
+      Not a buzz or peep. Just silence. Not one sound.<br> 
+      The hive is unprotected, the honey has ceased to flow.<br>
+      The Queen Bee is set for a mission. <b>Ready, set, GO!</b>
+      </p>
+      <p>
+      Both educational and entertaining, Beeline is a fast-paced and unpredictable board game for the whole family. 
+      </p>
+  
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//beeline-game.us14.list-manage.com/subscribe/post?u=8b1c568a3c2a7e7da060cfbc0&amp;id=1a7ee048a3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL"><h2>Join the BeeList for exclusive content and Beeline game updates!</h2></label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter email address" required>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8b1c568a3c2a7e7da060cfbc0_1a7ee048a3" tabindex="-1" value="">
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </div>
   </article>
   </section>
 
