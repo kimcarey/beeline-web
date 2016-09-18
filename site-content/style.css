@@ -142,43 +142,70 @@ display: block;
 background: linear-gradient(90deg, #e75256 20%, #8b67ad 20%, #8b67ad 20%, #9b59b6 40%, #9b59b6 40%, #75b84e 40%, #75b84e 60%, #ffe738 60%, #ffe738 60%, #ffe738 80%, #ff9b3c 80%, #ff9b3c 100%);}
 #footer-social img {padding: 15px}
 
+
+#beehive-image {
+  float: left;
+  width: 50%;
+}
+
+#beehive-image img {
+  width: 100%;
+  float: none;
+}
+
+.bee-the-change h2 {
+  font-size: 26pt;
+}
+
 @media only screen and (max-width: 767px) {
 
-#logo img {width: 50%; display: block; margin: 0 auto;}
-#contacts {text-align: center; padding-top: 10px}
+  #logo img {width: 50%; display: block; margin: 0 auto;}
+  #contacts {text-align: center; padding-top: 10px}
 
-#menu {display: table; width: 100%; text-align: center;}
-#social {display: none;}
-#menu ul {display: table; width: 100%; }
-#sub-header a {padding:20px 0px;}
-#sub-header li {display:table-cell;}
+  #menu {display: table; width: 100%; text-align: center;}
+  #social {display: none;}
+  #menu ul {display: table; width: 100%; }
+  #sub-header a {padding:20px 0px;}
+  #sub-header li {display:table-cell;}
 
-.behive {top:20px; left:15%;}
-#first a {font-size:15pt; padding: 0% 7%}
-.bee-the-change { top:120px; width: 85%; text-align: justify; padding: 0% 7%; }
-.bee-the-change p { max-width: 90%; }
-#mc_embed_signup h2 { font-size: 1em, max-width: 85%; display: block; }
+  .behive {top:20px; left:15%;}
+  #first a {font-size:15pt; padding: 0% 7%}
+  .bee-the-change {
+    padding: 0% 7%;
+  }
+  
+  .bee-the-change p {
+     max-width: 90%; 
+  }
+  
+   #beehive-image {
+    float: none;
+    width: 300px;
+  }
 
-#about-text, #latest article {width:100%;}
-#about-image {width:100%; padding-bottom: 50px;}
-#about-image img {display: none}
-#about {overflow: auto; text-align: justify}
 
-.row {width: 50%}
-.characters {margin-right: 0%;}
-.hoverEffect a.firstL {left: 40%;}
+  #mc_embed_signup h2 { font-size: 1em, max-width: 85%; display: block; }
 
-#info label.faq + input:checked + p.one {height:80px;}
-#info label.faq + input:checked + p.two {height:260px;}
-#info label.faq + input:checked + p.three {height:230px;}
-#info label.faq + input:checked + p.four {height:140px;}
-#info label.faq + input:checked + p.five {height:100px;}
-#info label.faq + input:checked + p.six {height:80px;}
-#info label.faq + input:checked + p.seven {height:480px;}
+  #about-text, #latest article {width:100%;}
+  #about-image {width:100%; padding-bottom: 50px;}
+  #about-image img {display: none}
+  #about {overflow: auto; text-align: justify}
 
-#latest-facebook { margin-top: 40px }
+  .row {width: 50%}
+  .characters {margin-right: 0%;}
+  .hoverEffect a.firstL {left: 40%;}
 
-footer#main-footer {text-align: center}
+  #info label.faq + input:checked + p.one {height:80px;}
+  #info label.faq + input:checked + p.two {height:260px;}
+  #info label.faq + input:checked + p.three {height:230px;}
+  #info label.faq + input:checked + p.four {height:140px;}
+  #info label.faq + input:checked + p.five {height:100px;}
+  #info label.faq + input:checked + p.six {height:80px;}
+  #info label.faq + input:checked + p.seven {height:480px;}
+
+  #latest-facebook { margin-top: 40px }
+
+  footer#main-footer {text-align: center}
 #footer-social, #disclaimer {display: block; width: 100%}
 
 }
@@ -197,7 +224,7 @@ footer#main-footer {text-align: center}
 #first a {font-size:21pt;}
 .behive {top:20px; left:150px;}
 .bee-the-change{/* top:130px; *//* left:60%; */width: 40%;float: left;padding: 2px;}
-.bee-the-change p { max-width: 70%; }
+.bee-the-change p {/* max-width: 70%; */}
 
 #about {min-height: 600px;}
 #about-text {width:60%; overflow:hidden; position:relative;display:inline-block; float: left;}
@@ -225,23 +252,22 @@ section.module.parallax {background-position: 50% 50%; background-repeat: no-rep
 #footer-social {float: right}
 }
 
+.bee-the-change {
+    padding-top: 50px;
+}
 .bee-the-change h2 { color: #fff; border-bottom: 0; font-weight: normal; }
-.bee-the-change p {color: #fff;font-size: 15pt;/* line-height: 18pt; */margin-bottom: 50px;display: block;text-align: left;}
+.bee-the-change p {
+  color: #fff;font-size: 15pt;
+  /* line-height: 18pt; */
+  margin-bottom: 50px;
+  display: block;
+  text-align: left;
+}
+.bee-the-change p.poem{
+  font-style: italic;
+}
+
 #mc_embed_signup form { padding: 0px !important}
 .button { background-color: #ea5358 !important}
 .button:hover { background-color: #fd9c42 !important}
 #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:350px;}
-
-
-#beehive-image {
-  float: left;
-  width: 50%;
-}
-
-#beehive-image img {
-  width: 100%;
-}
-
-.bee-the-change h2 {
-  font-size: 26pt;
-}
