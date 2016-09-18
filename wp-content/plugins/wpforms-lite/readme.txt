@@ -163,6 +163,18 @@ Syed Balkhi
 
 == Changelog ==
 
+= 1.2.7 =
+- Added: Store intial plugin activation date
+- Added: Duplicate form submit protection
+- Fixed: Strip slashes from entry data before processing
+
+= 1.2.6 =
+- Added: Miscellaneous internal improvements
+- Fixed: Incorrectly named variables in the front-end javascript preventing features from properly being extendable
+
+= 1.2.5.1 =
+- Fixed: Removed duplicate Settings page title
+
 = 1.2.5 =
 - Added: Setting for Email template background color
 - Added: Form setting for form wrapper CSS class

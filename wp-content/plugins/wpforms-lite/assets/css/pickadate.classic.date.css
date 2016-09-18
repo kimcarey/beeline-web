@@ -33,28 +33,29 @@ div.wpforms-container .wpforms-form .picker__year {
 /**
  * The month and year selectors.
  */
-div.wpforms-container .wpforms-form .picker__select--month,
-div.wpforms-container .wpforms-form .picker__select--year {
+div.wpforms-container .wpforms-form select.picker__select--month,
+div.wpforms-container .wpforms-form select.picker__select--year {
   border: 1px solid #b7b7b7;
   height: 2em;
   padding: .5em;
   margin-left: .25em;
   margin-right: .25em;
+  display: inline-block;
 }
 @media (min-width: 24.5em) {
-  div.wpforms-container .wpforms-form .picker__select--month,
-  div.wpforms-container .wpforms-form .picker__select--year {
+  div.wpforms-container .wpforms-form select.picker__select--month,
+  div.wpforms-container .wpforms-form select.picker__select--year {
     margin-top: -0.5em;
   }
 }
-div.wpforms-container .wpforms-form .picker__select--month {
+div.wpforms-container .wpforms-form select.picker__select--month {
   width: 35%;
 }
-div.wpforms-container .wpforms-form .picker__select--year {
+div.wpforms-container .wpforms-form select.picker__select--year {
   width: 22.5%;
 }
-div.wpforms-container .wpforms-form .picker__select--month:focus,
-div.wpforms-container .wpforms-form .picker__select--year:focus {
+div.wpforms-container .wpforms-form select.picker__select--month:focus,
+div.wpforms-container .wpforms-form select.picker__select--year:focus {
   border-color: #0089ec;
 }
 /**
