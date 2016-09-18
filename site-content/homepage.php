@@ -75,11 +75,18 @@ Template Name: Home
 
     <div class="bee-the-change">
       <h2>Welcome to Beeline!</h2>
-      <p>Where have all the bees gone? They're nowhere to be found.</p>
-      <p>
-      Not a buzz or peep. Just silence. Not one sound.<br> 
-      The hive is unprotected, the honey has ceased to flow.<br>
-      The Queen Bee is set for a mission. <b>Ready, set, GO!</b>
+      <p class="poem">
+	      Where have all the bees gone?</br>
+	      They're nowhere to be found.</br>
+	      </br>
+	      Not a buzz or peep. Just silence.</br>
+	      Not one sound.</br>
+	      </br>
+	      The hive is unprotected, </br>
+	      The honey has ceased to flow.</br>
+	      </br>
+	      The Queen Bee is set for a mission.</br>
+	      <b>Ready, set, GO!</b>
       </p>
       <p>
       Both educational and entertaining, Beeline is a fast-paced and unpredictable board game for the whole family. 
