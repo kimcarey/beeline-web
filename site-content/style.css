@@ -50,13 +50,13 @@ header#main-header {background-image: url("images/background-header.jpg");}
 .instagram-header { background:transparent url('images/icon-instagram.png') center top no-repeat; }
 .instagram-header:hover {background-image: url('images/icon-hover-instagram.png');}
 
-#first {background-color: #1db8ca; width: 100%; height: 650px; display: block; background-image: url('images/first.jpg')}
+#first {background-color: #1db8ca;width: 100%;/* height: 650px; */display: block;background-image: url('images/first.jpg');}
 #first a {padding: 10px 15px; border: 5px solid #fff; color: white; font-weight:bold; text-transform: uppercase;}
 #first a:hover {background-color: #fff; color:#1db8ca;}
 
 .bee-the-change h2, #mc_embed_signup h2 { color: #fff; border-bottom: 0; font-weight: normal; }
 
-#beehive {width:100%; height:650px; overflow:hidden; position:relative;display:block; float: left; z-index:999 }
+#beehive {width:100%;/* height:650px; */overflow:hidden;/* position:relative; */display:block;/* float: left; *//* z-index:999 */}
 #more {overflow:hidden; position:relative;display:block; float: right;display: flex;
   justify-content: center;
   flex-direction: column; }
@@ -154,7 +154,7 @@ background: linear-gradient(90deg, #e75256 20%, #8b67ad 20%, #8b67ad 20%, #9b59b
 #sub-header li {display:table-cell;}
 
 .behive {top:20px; left:15%;}
-#first a {font-size:14pt; padding: 0% 7%}
+#first a {font-size:15pt; padding: 0% 7%}
 .bee-the-change { top:120px; width: 85%; text-align: justify; padding: 0% 7%; }
 .bee-the-change p { max-width: 90%; }
 #mc_embed_signup h2 { font-size: 1em, max-width: 85%; display: block; }
@@ -196,7 +196,7 @@ footer#main-footer {text-align: center}
 
 #first a {font-size:21pt;}
 .behive {top:20px; left:150px;}
-.bee-the-change{top:130px; left:60%; width: 50%}
+.bee-the-change{/* top:130px; *//* left:60%; */width: 40%;float: left;padding: 2px;}
 .bee-the-change p { max-width: 70%; }
 
 #about {min-height: 600px;}
@@ -226,7 +226,7 @@ section.module.parallax {background-position: 50% 50%; background-repeat: no-rep
 }
 
 .bee-the-change h2 { color: #fff; border-bottom: 0; font-weight: normal; }
-.bee-the-change p { color: #fff; font-size: 11pt; line-height: 18pt; margin-bottom: 50px; display: block; }
+.bee-the-change p {color: #fff;font-size: 15pt;/* line-height: 18pt; */margin-bottom: 50px;display: block;text-align: left;}
 #mc_embed_signup form { padding: 0px !important}
 .button { background-color: #ea5358 !important}
 .button:hover { background-color: #fd9c42 !important}
