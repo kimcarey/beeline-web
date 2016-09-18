@@ -69,6 +69,9 @@ Template Name: Home
 
   <section id="first">
   <article id="beehive">
+    <div id="beehive-image">
+      <img src="beehive-sm.png">
+    </div>
 
     <div class="bee-the-change">
       <h2>Welcome to Beeline!</h2>
