@@ -1299,7 +1299,7 @@ td#next {
 /* BEELINE */
 
 .bee-the-change h2 { color: #fff; border-bottom: 0; font-weight: normal; }
-.bee-the-change p { font-size: 14pt; line-height: 21pt; margin-bottom: 50px; display: block; background-color: red; max-width: 70%; }
+.bee-the-change p { font-size: 9pt; line-height: 14pt; margin-bottom: 50px; display: block; background-color: red; max-width: 70%; }
 
 
 a {text-decoration: none; color: #414141 }
@@ -1473,7 +1473,8 @@ background: linear-gradient(90deg, #e75256 20%,  #8b67ad 20%, #8b67ad 20%, #9b59
 
 
 .behive {top:20px; left:15%;}
-.bee-the-change{top:250px; width: 90%; text-align: center; color: #fff; font-size: 18pt}
+.bee-the-change{top:50px; width: 90%; text-align: center; color: #fff; font-size: 18pt}
+.leaves { display: none }
 
 label {clear: both; display: block;  }
 #email-form {padding: 15px; border: 0; font-size: 9pt; clear: left; display: block; margin-top: 15px; float: left; display: block}
@@ -1512,7 +1513,7 @@ label {clear: both; display: block;  }
 
 
 .behive {top:20px; left:150px;}
-.bee-the-change{top:180px; left:60%; width: 50%}
+.bee-the-change{top:100px; left:60%; width: 50%}
 
 #about {min-height: 600px;}
 #about-text {width:60%; overflow:hidden; position:relative;display:inline-block; float: left;}
